@@ -99,10 +99,52 @@ body {
 /* responsiveness */
 @media screen and (max-width: 1000px) {
   .main-container {
-    margin: auto 10px;
+    margin: auto 1rem auto 1rem;
   }
 
   .quote-sentence {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .quote-sentence {
+    font-size: 2rem;
+  }
+
+  .quote-sentence i {
+    font-size: 2.5rem;
+  }
+
+  .quote-long {
+    font-size: 1.5rem;
+  }
+
+  .author-sentence {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .quote-sentence {
+    font-size: 1.75rem;
+  }
+
+  .quote-sentence i {
+    font-size: 2rem;
+  }
+
+  .quote-long {
+    font-size: 1.25rem;
+  }
+
+  .author-sentence {
+    font-size: 1.35rem;
+  }
+
+  .buttons-container button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
   }
 }
